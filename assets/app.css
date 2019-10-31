@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900&display=swap&subset=cyrillic');
+
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #ecf0f5;
+}
+
+img {
+  max-width: 100%;
+}
+
+/** Custom bootstrap */
+.card {
+  border-radius: 0;
+}
+
+.card-border-blue {
+  border-top: 3px solid #3c8dbc;
+}
