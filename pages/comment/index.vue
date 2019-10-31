@@ -93,17 +93,16 @@ export default {
     },
 
     methods: {
-        getComment() {
-            this.$axios.get('/comment').then(({ data }) => {
+        getComment(page = null) {
+            this.$axios.get('/comment?page=' + page).then(({ data }) => {
                 this.comment = data.data;
                 this.loading = false;
-                // console.log(data.data.data)
             })
         },
 
         handleCurrentChange(val) {
             this.loading = true;
-            this.getUsers(val);
+            this.getComment(val);
             window.scrollTo(0, 0);
         },
 

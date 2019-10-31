@@ -48,7 +48,7 @@
           <el-button type="primary" @click="handleModalSave">Сохранить</el-button>
         </span>
       </el-dialog>
-      {{ index }}
+
     </b-col>
   </b-row>
 </template>
