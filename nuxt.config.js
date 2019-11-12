@@ -83,7 +83,7 @@ export default {
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
-    baseURL: process.env.BASE_URL || 'https://api.excursguide.ru/api/v2',
+    baseURL: process.env.BASE_URL || 'https://api.excursguide.ru/api/v2/admin',
   },
 
   /*
